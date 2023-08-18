@@ -1,0 +1,47 @@
+.project-heading {
+    text-align: center;
+    padding: 4rem 0 2rem 0;
+  }
+  
+  .project-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    padding-bottom: 5rem;
+  }
+  
+  .project-card {
+    background-color: black;
+    padding: 1.2rem 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .project-title {
+    color: white;
+    padding: 1rem 0;
+  }
+  
+  .pro-details {
+    padding-bottom: 1rem;
+    font-size: 1.1rem;
+    text-align: justify;
+  }
+  
+  .project-card img {
+    flex: 1;
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 16 / 9; /* Set the desired aspect ratio */
+  }
+  
+  @media screen and (max-width: 740px) {
+    .project-container {
+      max-width: 90%;
+      margin: auto;
+      grid-template-columns: 1fr;
+    }
+  }
+  
